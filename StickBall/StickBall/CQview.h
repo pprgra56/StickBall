@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CQview.h
 //  StickBall
 //
 //  Created by 常琼 on 16/3/21.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UIView *vv;
+@interface CQview : UIView
 
 @end
-

@@ -15,6 +15,7 @@
 		9BC84FB61C9F95C700E45400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC84FB41C9F95C700E45400 /* LaunchScreen.storyboard */; };
 		9BC84FC11C9F95C800E45400 /* StickBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC84FC01C9F95C800E45400 /* StickBallTests.m */; };
 		9BC84FCC1C9F95C800E45400 /* StickBallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC84FCB1C9F95C800E45400 /* StickBallUITests.m */; };
+		9BC84FDB1C9F97BB00E45400 /* CQview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC84FDA1C9F97BB00E45400 /* CQview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9BC84FC71C9F95C800E45400 /* StickBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC84FCB1C9F95C800E45400 /* StickBallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickBallUITests.m; sourceTree = "<group>"; };
 		9BC84FCD1C9F95C800E45400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC84FD91C9F97BB00E45400 /* CQview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQview.h; sourceTree = "<group>"; };
+		9BC84FDA1C9F97BB00E45400 /* CQview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9BC84FB41C9F95C700E45400 /* LaunchScreen.storyboard */,
 				9BC84FB71C9F95C700E45400 /* Info.plist */,
 				9BC84FA61C9F95C700E45400 /* Supporting Files */,
+				9BC84FD91C9F97BB00E45400 /* CQview.h */,
+				9BC84FDA1C9F97BB00E45400 /* CQview.m */,
 			);
 			path = StickBall;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				9BC84FAE1C9F95C700E45400 /* ViewController.m in Sources */,
 				9BC84FAB1C9F95C700E45400 /* AppDelegate.m in Sources */,
+				9BC84FDB1C9F97BB00E45400 /* CQview.m in Sources */,
 				9BC84FA81C9F95C700E45400 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
