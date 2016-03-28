@@ -1,18 +1,18 @@
 //
-//  StickBallUITests.m
-//  StickBallUITests
+//  sabreadklinkeUITests.m
+//  sabreadklinkeUITests
 //
-//  Created by 常琼 on 16/3/21.
+//  Created by 常琼 on 16/3/24.
 //  Copyright © 2016年 shouhuobao. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface StickBallUITests : XCTestCase
+@interface sabreadklinkeUITests : XCTestCase
 
 @end
 
-@implementation StickBallUITests
+@implementation sabreadklinkeUITests
 
 - (void)setUp {
     [super setUp];
@@ -24,17 +24,17 @@
     // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
     [[[XCUIApplication alloc] init] launch];
     
-
+    // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
 }
 
 - (void)tearDown {
-
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
 - (void)testExample {
-
-
+    // Use recording to get started writing UI tests.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
 @end

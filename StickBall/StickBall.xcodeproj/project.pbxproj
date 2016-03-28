@@ -53,7 +53,7 @@
 		9BC84FCB1C9F95C800E45400 /* StickBallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickBallUITests.m; sourceTree = "<group>"; };
 		9BC84FCD1C9F95C800E45400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BC84FD91C9F97BB00E45400 /* CQview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQview.h; sourceTree = "<group>"; };
-		9BC84FDA1C9F97BB00E45400 /* CQview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQview.m; sourceTree = "<group>"; };
+		9BC84FDA1C9F97BB00E45400 /* CQview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQview.m; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +207,7 @@
 		9BC84F9B1C9F95C700E45400 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CQ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = shouhuobao;
 				TargetAttributes = {
@@ -502,6 +503,7 @@
 				9BC84FD21C9F95C800E45400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BC84FD31C9F95C800E45400 /* Build configuration list for PBXNativeTarget "StickBallTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +512,7 @@
 				9BC84FD51C9F95C800E45400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BC84FD61C9F95C800E45400 /* Build configuration list for PBXNativeTarget "StickBallUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +521,7 @@
 				9BC84FD81C9F95C800E45400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

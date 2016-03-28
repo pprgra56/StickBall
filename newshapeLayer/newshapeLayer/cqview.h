@@ -1,15 +1,13 @@
 //
-//  CQview.h
-//  StickBall
+//  cqview.h
+//  newshapeLayer
 //
-//  Created by 常琼 on 16/3/21.
+//  Created by 常琼 on 16/3/23.
 //  Copyright © 2016年 shouhuobao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface CQview : UIView
-
-
+@interface cqview : UIView
 
 @end

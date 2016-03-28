@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B3D2C681CA400A500A447E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D2C671CA400A500A447E1 /* main.m */; };
+		9B3D2C6B1CA400A500A447E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D2C6A1CA400A500A447E1 /* AppDelegate.m */; };
+		9B3D2C6E1CA400A500A447E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D2C6D1CA400A500A447E1 /* ViewController.m */; };
+		9B3D2C711CA400A500A447E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3D2C6F1CA400A500A447E1 /* Main.storyboard */; };
+		9B3D2C731CA400A500A447E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3D2C721CA400A500A447E1 /* Assets.xcassets */; };
+		9B3D2C761CA400A500A447E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3D2C741CA400A500A447E1 /* LaunchScreen.storyboard */; };
+		9B3D2C811CA400A500A447E1 /* sabreadklinkeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D2C801CA400A500A447E1 /* sabreadklinkeTests.m */; };
+		9B3D2C8C1CA400A500A447E1 /* sabreadklinkeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D2C8B1CA400A500A447E1 /* sabreadklinkeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B3D2C7D1CA400A500A447E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3D2C5B1CA400A500A447E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B3D2C621CA400A500A447E1;
+			remoteInfo = sabreadklinke;
+		};
+		9B3D2C881CA400A500A447E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3D2C5B1CA400A500A447E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B3D2C621CA400A500A447E1;
+			remoteInfo = sabreadklinke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B3D2C631CA400A500A447E1 /* sabreadklinke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sabreadklinke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3D2C671CA400A500A447E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B3D2C691CA400A500A447E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B3D2C6A1CA400A500A447E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B3D2C6C1CA400A500A447E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B3D2C6D1CA400A500A447E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B3D2C701CA400A500A447E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B3D2C721CA400A500A447E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B3D2C751CA400A500A447E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B3D2C771CA400A500A447E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3D2C7C1CA400A500A447E1 /* sabreadklinkeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sabreadklinkeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3D2C801CA400A500A447E1 /* sabreadklinkeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sabreadklinkeTests.m; sourceTree = "<group>"; };
+		9B3D2C821CA400A500A447E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3D2C871CA400A500A447E1 /* sabreadklinkeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sabreadklinkeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3D2C8B1CA400A500A447E1 /* sabreadklinkeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sabreadklinkeUITests.m; sourceTree = "<group>"; };
+		9B3D2C8D1CA400A500A447E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B3D2C601CA400A500A447E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3D2C791CA400A500A447E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3D2C841CA400A500A447E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B3D2C5A1CA400A500A447E1 = {
+			isa = PBXGroup;
+			children = (
+				9B3D2C651CA400A500A447E1 /* sabreadklinke */,
+				9B3D2C7F1CA400A500A447E1 /* sabreadklinkeTests */,
+				9B3D2C8A1CA400A500A447E1 /* sabreadklinkeUITests */,
+				9B3D2C641CA400A500A447E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B3D2C641CA400A500A447E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B3D2C631CA400A500A447E1 /* sabreadklinke.app */,
+				9B3D2C7C1CA400A500A447E1 /* sabreadklinkeTests.xctest */,
+				9B3D2C871CA400A500A447E1 /* sabreadklinkeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B3D2C651CA400A500A447E1 /* sabreadklinke */ = {
+			isa = PBXGroup;
+			children = (
+				9B3D2C691CA400A500A447E1 /* AppDelegate.h */,
+				9B3D2C6A1CA400A500A447E1 /* AppDelegate.m */,
+				9B3D2C6C1CA400A500A447E1 /* ViewController.h */,
+				9B3D2C6D1CA400A500A447E1 /* ViewController.m */,
+				9B3D2C6F1CA400A500A447E1 /* Main.storyboard */,
+				9B3D2C721CA400A500A447E1 /* Assets.xcassets */,
+				9B3D2C741CA400A500A447E1 /* LaunchScreen.storyboard */,
+				9B3D2C771CA400A500A447E1 /* Info.plist */,
+				9B3D2C661CA400A500A447E1 /* Supporting Files */,
+			);
+			path = sabreadklinke;
+			sourceTree = "<group>";
+		};
+		9B3D2C661CA400A500A447E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B3D2C671CA400A500A447E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B3D2C7F1CA400A500A447E1 /* sabreadklinkeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B3D2C801CA400A500A447E1 /* sabreadklinkeTests.m */,
+				9B3D2C821CA400A500A447E1 /* Info.plist */,
+			);
+			path = sabreadklinkeTests;
+			sourceTree = "<group>";
+		};
+		9B3D2C8A1CA400A500A447E1 /* sabreadklinkeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B3D2C8B1CA400A500A447E1 /* sabreadklinkeUITests.m */,
+				9B3D2C8D1CA400A500A447E1 /* Info.plist */,
+			);
+			path = sabreadklinkeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B3D2C621CA400A500A447E1 /* sabreadklinke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3D2C901CA400A500A447E1 /* Build configuration list for PBXNativeTarget "sabreadklinke" */;
+			buildPhases = (
+				9B3D2C5F1CA400A500A447E1 /* Sources */,
+				9B3D2C601CA400A500A447E1 /* Frameworks */,
+				9B3D2C611CA400A500A447E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sabreadklinke;
+			productName = sabreadklinke;
+			productReference = 9B3D2C631CA400A500A447E1 /* sabreadklinke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B3D2C7B1CA400A500A447E1 /* sabreadklinkeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3D2C931CA400A500A447E1 /* Build configuration list for PBXNativeTarget "sabreadklinkeTests" */;
+			buildPhases = (
+				9B3D2C781CA400A500A447E1 /* Sources */,
+				9B3D2C791CA400A500A447E1 /* Frameworks */,
+				9B3D2C7A1CA400A500A447E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3D2C7E1CA400A500A447E1 /* PBXTargetDependency */,
+			);
+			name = sabreadklinkeTests;
+			productName = sabreadklinkeTests;
+			productReference = 9B3D2C7C1CA400A500A447E1 /* sabreadklinkeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B3D2C861CA400A500A447E1 /* sabreadklinkeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3D2C961CA400A500A447E1 /* Build configuration list for PBXNativeTarget "sabreadklinkeUITests" */;
+			buildPhases = (
+				9B3D2C831CA400A500A447E1 /* Sources */,
+				9B3D2C841CA400A500A447E1 /* Frameworks */,
+				9B3D2C851CA400A500A447E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3D2C891CA400A500A447E1 /* PBXTargetDependency */,
+			);
+			name = sabreadklinkeUITests;
+			productName = sabreadklinkeUITests;
+			productReference = 9B3D2C871CA400A500A447E1 /* sabreadklinkeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B3D2C5B1CA400A500A447E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shouhuobao;
+				TargetAttributes = {
+					9B3D2C621CA400A500A447E1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9B3D2C7B1CA400A500A447E1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9B3D2C621CA400A500A447E1;
+					};
+					9B3D2C861CA400A500A447E1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9B3D2C621CA400A500A447E1;
+					};
+				};
+			};
+			buildConfigurationList = 9B3D2C5E1CA400A500A447E1 /* Build configuration list for PBXProject "sabreadklinke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B3D2C5A1CA400A500A447E1;
+			productRefGroup = 9B3D2C641CA400A500A447E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B3D2C621CA400A500A447E1 /* sabreadklinke */,
+				9B3D2C7B1CA400A500A447E1 /* sabreadklinkeTests */,
+				9B3D2C861CA400A500A447E1 /* sabreadklinkeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B3D2C611CA400A500A447E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3D2C761CA400A500A447E1 /* LaunchScreen.storyboard in Resources */,
+				9B3D2C731CA400A500A447E1 /* Assets.xcassets in Resources */,
+				9B3D2C711CA400A500A447E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3D2C7A1CA400A500A447E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3D2C851CA400A500A447E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B3D2C5F1CA400A500A447E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3D2C6E1CA400A500A447E1 /* ViewController.m in Sources */,
+				9B3D2C6B1CA400A500A447E1 /* AppDelegate.m in Sources */,
+				9B3D2C681CA400A500A447E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3D2C781CA400A500A447E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3D2C811CA400A500A447E1 /* sabreadklinkeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3D2C831CA400A500A447E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3D2C8C1CA400A500A447E1 /* sabreadklinkeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B3D2C7E1CA400A500A447E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B3D2C621CA400A500A447E1 /* sabreadklinke */;
+			targetProxy = 9B3D2C7D1CA400A500A447E1 /* PBXContainerItemProxy */;
+		};
+		9B3D2C891CA400A500A447E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B3D2C621CA400A500A447E1 /* sabreadklinke */;
+			targetProxy = 9B3D2C881CA400A500A447E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B3D2C6F1CA400A500A447E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3D2C701CA400A500A447E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B3D2C741CA400A500A447E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3D2C751CA400A500A447E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B3D2C8E1CA400A500A447E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B3D2C8F1CA400A500A447E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B3D2C911CA400A500A447E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sabreadklinke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.sabreadklinke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B3D2C921CA400A500A447E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sabreadklinke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.sabreadklinke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B3D2C941CA400A500A447E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sabreadklinkeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.sabreadklinkeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sabreadklinke.app/sabreadklinke";
+			};
+			name = Debug;
+		};
+		9B3D2C951CA400A500A447E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sabreadklinkeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.sabreadklinkeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sabreadklinke.app/sabreadklinke";
+			};
+			name = Release;
+		};
+		9B3D2C971CA400A500A447E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sabreadklinkeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.sabreadklinkeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sabreadklinke;
+			};
+			name = Debug;
+		};
+		9B3D2C981CA400A500A447E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sabreadklinkeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouhuobao.sabreadklinkeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sabreadklinke;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B3D2C5E1CA400A500A447E1 /* Build configuration list for PBXProject "sabreadklinke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3D2C8E1CA400A500A447E1 /* Debug */,
+				9B3D2C8F1CA400A500A447E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3D2C901CA400A500A447E1 /* Build configuration list for PBXNativeTarget "sabreadklinke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3D2C911CA400A500A447E1 /* Debug */,
+				9B3D2C921CA400A500A447E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B3D2C931CA400A500A447E1 /* Build configuration list for PBXNativeTarget "sabreadklinkeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3D2C941CA400A500A447E1 /* Debug */,
+				9B3D2C951CA400A500A447E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B3D2C961CA400A500A447E1 /* Build configuration list for PBXNativeTarget "sabreadklinkeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3D2C971CA400A500A447E1 /* Debug */,
+				9B3D2C981CA400A500A447E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B3D2C5B1CA400A500A447E1 /* Project object */;
+}

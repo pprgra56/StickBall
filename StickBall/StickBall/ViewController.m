@@ -27,6 +27,7 @@
     [self.view addSubview: self.cqview];
     
     
+    
 
     
 }
