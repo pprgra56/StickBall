@@ -16,6 +16,8 @@
 
 @property(strong,nonatomic) CQview *cqview;
 
+@property (weak, nonatomic) IBOutlet UITextField *textfile;
+
 
 @end
 
@@ -23,19 +25,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.cqview  = [[CQview alloc] initWithFrame:CGRectMake(100, 100, 40, 40)];
-    [self.view addSubview: self.cqview];
-    
-    
-    
+    CGPoint point = CGPointMake(25, self.view.frame.size.height-65);
+    CQview *cqview = [[CQview alloc] initWithPoint:point andSuperView:self.view];
 
-    
+    cqview.viscosity = 20;
+    cqview.bubbleWidth = 35;
+
+    cqview.bubbleColor = [UIColor redColor];
+
+    [cqview setup];
+    cqview.text = @"R";
+
+
+
+        
 }
 
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
-    
+    [self.textfile setEnabled:NO];
 }
 
 
